@@ -1,0 +1,68 @@
+[
+    {
+        "question": "Quel est le nom complet de Bob l'éponge ?",
+        "options": [
+            "Bob l'éponge Carrée",
+            "Bob l'éponge Pantalon Carré",
+            "Bob l'éponge Éponge",
+            "Bob l'éponge SquarePants"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le nom de la meilleure amie de Bob l'éponge ?",
+        "options": ["Sandy", "Carlo", "Patrick", "Perle"],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le métier de Bob l'éponge ?",
+        "options": ["Cuisinier", "Facteur", "Vendeur de glaces", "Caissier"],
+        "answer": 0
+    },
+    {
+        "question": "Qui est le voisin grincheux de Bob l'éponge ?",
+        "options": ["Monsieur Krabs", "Patrick", "Carlo", "Plankton"],
+        "answer": 3
+    },
+    {
+        "question": "Quel est l'animal de compagnie de Bob l'éponge ?",
+        "options": ["Un poisson", "Un chat", "Un escargot", "Un chien"],
+        "answer": 2
+    },
+    {
+        "question": "Dans quelle ville se déroule la série Bob l'éponge ?",
+        "options": ["Bikini Bottom", "Krusty Krab", "Spongeville", "Squidville"],
+        "answer": 0
+    },
+    {
+        "question": "Quelle est la nourriture préférée de Bob l'éponge ?",
+        "options": ["Pâté de crabe", "Hamburger", "Pizza", "Sushis"],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le hobby de Carlo Tentacule ?",
+        "options": [
+            "Jouer de la clarinette",
+            "Peindre",
+            "Faire du sport",
+            "Jardiner"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle est la couleur de la cravate de Monsieur Krabs ?",
+        "options": ["Rouge", "Bleue", "Jaune", "Violette"],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom du restaurant où travaille Bob l'éponge ?",
+        "options": [
+            "Krusty Burger",
+            "Krabby Patty",
+            "SpongeBob's Diner",
+            "Pineapple Café"
+        ],
+        "answer": 1
+    }
+]
+
