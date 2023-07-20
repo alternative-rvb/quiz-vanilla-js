@@ -28,7 +28,7 @@
   {
     "id": 4,
     "question": "Quel est le plus grand poisson du monde ?",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg/1920px-Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Whale_Shark_and_Freediver.jpg/1920px-Whale_Shark_and_Freediver.jpg",
     "options": [
       "Requin blanc",
       "Requin-baleine",
@@ -73,14 +73,14 @@
   {
     "id": 9,
     "question": "Quel est le plus grand rapace du monde ?",
-    "imageUrl": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Harpia_harpyja_-Belize-8a.jpg",
     "options": ["Aigle royal", "Faucon pèlerin", "Vautour", "Aigle harpie"],
     "answer": 3
   },
   {
     "id": 10,
     "question": "Quel est le plus petit mammifère du monde ?",
-    "imageUrl": null,
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/54822a56e4b0b30bd821480c/4a40c361-4392-4ccf-801f-5f8e1b5f78e7/bumblebee+bat+dans+pet+care+world+smallest+mammal.jpeg",
     "options": [
       "Musaraigne étrusque",
       "Souris",
@@ -92,7 +92,7 @@
   {
     "id": 11,
     "question": "Quel est l'animal le plus rapide sur terre ?",
-    "imageUrl": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Gepardjagt1_%28Acinonyx_jubatus%29.jpg/2560px-Gepardjagt1_%28Acinonyx_jubatus%29.jpg",
     "options": ["Guépard", "Lion", "Gazelle", "Le lévrier"],
     "answer": 0
   },
