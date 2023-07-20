@@ -1,32 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<body>
+  <body>
     <main>
+      <div id="quiz">
         <h1>Quiz</h1>
-        <div id="quiz">
-            <h2 id="question">Première question ...</h2>
-            <div id="options">
-                <button class="btn btn-primary">Réponse 1</button>
-                <button class="btn btn-success">Réponse 2</button>
-                <button class="btn btn-danger">Réponse 3</button>
-                <button class="btn btn-warning">Réponse 4</button>
-            </div>
+        <div>
+          <img src="images/spongebob.jpg" alt="Sponebob" />
         </div>
-        <div id="time">Temps restant : <span id="timer"></span></div>
-        <div id="preloader" style="display: none;">
-            <div class="preloader-spinner"></div>
-        </div>
+        <button id="btn-start" class="btn btn-start" type="button">Démarer</button>
+      </div>
     </main>
-    <script src="quiz.js" type="module"> </script>
-</body>
-
+    <script src="js/index.js" type="module"></script>
+  </body>
 </html>

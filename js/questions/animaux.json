@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "question": "Quel est le plus grand animal terrestre ?",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Paignton_%2C_Paignton_Zoo%2C_Elephants_-_geograph.org.uk_-_1484811.jpg",
+    "options": ["Éléphant", "Girafe", "Rhinocéros", "Hippopotame"],
+    "answer": 0
+  },
+  {
+    "id": 2,
+    "question": "Quel est l'oiseau le plus rapide du monde ?",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Faucon_pelerin_7_mai.jpg",
+    "options": [
+      "Aigle royal",
+      "Faucon pèlerin",
+      "Condor des Andes",
+      "Autruche"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 3,
+    "question": "Quel est le plus grand prédateur terrestre ?",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Siberischer_tiger_de_edit02.jpg",
+    "options": ["Lion", "Tigre", "Ours polaire", "Loup"],
+    "answer": 1
+  },
+  {
+    "id": 4,
+    "question": "Quel est le plus grand poisson du monde ?",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg/1920px-Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg",
+    "options": [
+      "Requin blanc",
+      "Requin-baleine",
+      "Requin marteau",
+      "Requin-tigre"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 5,
+    "question": "Quel est le plus grand animal marin ?",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg/1920px-Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg",
+    "options": ["Dauphin", "Baleine à bosse", "Orque", "Baleine bleue"],
+    "answer": 3
+  },
+  {
+    "id": 6,
+    "question": "Quel est le plus grand serpent venimeux ?",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/12_-_The_Mystical_King_Cobra_and_Coffee_Forests.jpg",
+    "options": ["Vipère", "Mamba noir", "Crotale", "Cobra royal"],
+    "answer": 3
+  },
+  {
+    "id": 7,
+    "question": "Quel est l'animal terrestre le plus rapide ?",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/TheCheethcat.jpg/800px-TheCheethcat.jpg",
+    "options": ["Léopard", "Guépard", "Gazelle", "Antilope"],
+    "answer": 1
+  },
+  {
+    "id": 8,
+    "question": "Quel est le plus grand insecte du monde ?",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Deinacrida_rugosa_NZ.jpg/1920px-Deinacrida_rugosa_NZ.jpg",
+    "options": [
+      "Papillon monarque",
+      "Coccinelle",
+      "Lucane cerf-volant",
+      "Géant weta"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 9,
+    "question": "Quel est le plus grand rapace du monde ?",
+    "imageUrl": null,
+    "options": ["Aigle royal", "Faucon pèlerin", "Vautour", "Aigle harpie"],
+    "answer": 3
+  },
+  {
+    "id": 10,
+    "question": "Quel est le plus petit mammifère du monde ?",
+    "imageUrl": null,
+    "options": [
+      "Musaraigne étrusque",
+      "Souris",
+      "Lérot",
+      "Chauve-souris abeille"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 11,
+    "question": "Quel est l'animal le plus rapide sur terre ?",
+    "imageUrl": null,
+    "options": ["Guépard", "Lion", "Gazelle", "Le lévrier"],
+    "answer": 0
+  },
+  {
+    "id": 12,
+    "question": "Quel est le plus grand animal volant ?",
+    "imageUrl": null,
+    "options": ["Corbeau", "Faucon", "Albatros", "Hibou"],
+    "answer": 2
+  },
+  {
+    "id": 13,
+    "question": "Quel est le plus grand reptile du monde ?",
+    "imageUrl": null,
+    "options": ["Cobra", "Iguane", "Alligator", "Crocodile marin"],
+    "answer": 3
+  },
+  {
+    "id": 14,
+    "question": "Quel est le plus grand oiseau du monde ?",
+    "imageUrl": null,
+    "options": ["Pigeon", "Aigle", "Condor", "Autruche"],
+    "answer": 3
+  },
+  {
+    "id": 15,
+    "question": "Quel est l'animal marin le plus venimeux ?",
+    "imageUrl": null,
+    "options": ["Méduse", "Pieuvre", "Raie", "Poisson-pierre"],
+    "answer": 0
+  },
+  {
+    "id": 16,
+    "question": "Quel est le plus grand félin du monde ?",
+    "imageUrl": null,
+    "options": ["Lion", "Léopard", "Jaguar", "Tigre"],
+    "answer": 3
+  },
+  {
+    "id": 17,
+    "question": "Quel est le plus grand mammifère terrestre ?",
+    "imageUrl": null,
+    "options": ["Éléphant", "Rhino", "Hippopotame", "Girafe"],
+    "answer": 0
+  },
+  {
+    "id": 18,
+    "question": "Quel est l'animal le plus intelligent du monde ?",
+    "imageUrl": null,
+    "options": ["Chimpanzé", "Dauphin", "Éléphant", "Gorille"],
+    "answer": 0
+  },
+  {
+    "id": 19,
+    "question": "Quel est l'animal le plus rapide de l'océan ?",
+    "imageUrl": null,
+    "options": ["Marlin bleu", "Requin-baleine", "Requin blanc", "Dauphin"],
+    "answer": 0
+  },
+  {
+    "id": 20,
+    "question": "Quel est l'animal le plus répandu sur Terre ?",
+    "imageUrl": null,
+    "options": ["Souris", "Rat", "Puce", "Abeille"],
+    "answer": 0
+  }
+]
