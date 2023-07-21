@@ -75,15 +75,15 @@ img {
 .quiz__timer {
   position: absolute;
   top: 0;
-  left: calc(25% + 16px);
-  right: calc(25% + 16px);
+  right: 1rem;
+
   /* transform: translateX(-50%); */
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
   text-align: center;
   font-weight: bold;
   color: var(--theme1);
-  font-size: clamp(1rem, 2vw, 1.5rem);
+  
 }
 
 .btn {
@@ -199,5 +199,5 @@ img {
 }
 
 .blur {
-  filter: blur(4rem);
+  filter: blur(2rem);
 }
