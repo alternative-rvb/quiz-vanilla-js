@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/alternative-rvb/quiz/issues"
   },
-  "homepage": "https://github.com/alternative-rvb/quiz#readme"
+  "homepage": "https://github.com/alternative-rvb/quiz#readme",
+  "dependencies": {
+    "tsparticles-confetti": "^2.11.1"
+  }
 }

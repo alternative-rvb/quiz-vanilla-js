@@ -5,7 +5,7 @@ console.log("quiz.js loaded");
  * @desc Ce script permet de créer un quiz à partir d'un fichier JSON
  */
 
-// Réglages du quiz
+// ANCHOR Réglages du quiz
 /**
  * @type {Boolean} spoilerMode - Afficher l'image en flou
  */
@@ -19,7 +19,7 @@ const timeLimit = 10;
  * @type {String} questionsUrl - URL du fichier JSON
  * @default "js/questions/javascript-1.json"
  */
-const questionsUrl = "js/questions/javascript-1.json"; // URL du fichier JSON
+const questionsUrl = "js/questions/javascript-1.json";
 
 const quizContainer = document.querySelector("#quiz");
 const startbutton = document.querySelector("#btn-start");
@@ -225,6 +225,11 @@ function endOfQuiz(questions) {
   restartButton.innerText = "Rejouez";
   restartButton.addEventListener("click", restartQuiz);
   quizContainer.appendChild(restartButton);
+  confetti({
+    particleCount: 100,
+    spread: 70,
+    origin: { y: 0.6 },
+  });
 }
 
 /**
