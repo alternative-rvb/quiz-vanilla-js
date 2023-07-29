@@ -23,12 +23,15 @@ let nextButton;
 let totalQuestions;
 
 // Réglages du quiz
+let spoilerMode = false; // Afficher l'image en flou
 let counter = 1;
 let next = 1;
 const timeLimit = 10; // Durée du quiz en secondes
-const questionsUrl = "js/questions/animaux.json";
+const questionsUrl = "js/questions/javascript-1.json";
 
 let points = 0;
+
+
 
 startbutton.addEventListener("click", () => quiz(next)); // Démarrer le premier intervalle
 
@@ -41,11 +44,15 @@ async function getQuestions() {
 async function quiz(index) {
   const questions = await getQuestions();
   console.log("questions:", questions);
-
+  clearInterval(idTimeInterval);
+  clearTimeout(idDelayWhenStoped);
+  clearTimeout(idDelayTransition);
+  console.log(idTimeInterval, idDelayWhenStoped, idDelayTransition);
   if (questions[index]) {
     quizContainer.innerHTML = "";
 
     createQuizElements(questions[index], questions.length);
+    if (!spoilerMode) image.classList.remove("blur");
     startTimer();
   } else {
     endOfQuiz(questions);
@@ -77,7 +84,7 @@ function stopTimer(e, data) {
 
   clearInterval(idTimeInterval);
   console.log("stopTimer");
-  image.classList.remove("blur");
+  if(spoilerMode) image.classList.remove("blur");
   e.currentTarget.classList.add("selected");
   Array.from(answerContainer.children).forEach((child) => {
     child.disabled = true;
@@ -106,8 +113,8 @@ function stopTimer(e, data) {
 function getNextQuestion(e) {
   console.log("e:", e);
   clearInterval(idTimeInterval);
-  clearTimeout(idDelayWhenStoped);
-  clearTimeout(idDelayTransition);
+  // clearTimeout(idDelayWhenStoped);
+  // clearTimeout(idDelayTransition);
   counter = 1;
   next++;
   quiz(next);
@@ -178,9 +185,3 @@ function restartQuiz() {
   next = 1;
   quiz(next);
 }
-
-
-
-
-
-

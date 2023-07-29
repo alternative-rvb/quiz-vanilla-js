@@ -1,0 +1,143 @@
+[
+    {
+      "id": 1,
+      "imageUrl": "https://oracle-devrel.github.io/devo-image-repository/seo-thumbnails/JavaScript---Thumbnail-1200-x-630.jpg",
+      "question": "Qu'est-ce que JavaScript ?",
+      "options": ["Un langage de programmation", "Un outil de design graphique", "Un système d'exploitation", "Un logiciel de gestion de base de données"],
+      "answer": 0
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://oracle-devrel.github.io/devo-image-repository/seo-thumbnails/JavaScript---Thumbnail-1200-x-630.jpg",
+      "question": "Quel est le symbole utilisé pour les commentaires sur une seule ligne en JavaScript ?",
+      "options": ["#", "//", "/* */", "&&"],
+      "answer": 1
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://oracle-devrel.github.io/devo-image-repository/seo-thumbnails/JavaScript---Thumbnail-1200-x-630.jpg",
+      "question": "Quelle méthode est utilisée pour ajouter un élément à la fin d'un tableau en JavaScript ?",
+      "options": ["push()", "add()", "appendTo()", "insert()"],
+      "answer": 0
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://oracle-devrel.github.io/devo-image-repository/seo-thumbnails/JavaScript---Thumbnail-1200-x-630.jpg",
+      "question": "Comment déclare-t-on une variable en JavaScript ?",
+      "options": ["var", "variable", "v", "declare"],
+      "answer": 0
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://oracle-devrel.github.io/devo-image-repository/seo-thumbnails/JavaScript---Thumbnail-1200-x-630.jpg",
+      "question": "Quelle fonction est utilisée pour afficher du texte dans la console en JavaScript ?",
+      "options": ["log()", "print()", "display()", "show()"],
+      "answer": 0
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://oracle-devrel.github.io/devo-image-repository/seo-thumbnails/JavaScript---Thumbnail-1200-x-630.jpg",
+      "question": "Quelle boucle est utilisée pour répéter du code jusqu'à ce qu'une condition soit fausse en JavaScript ?",
+      "options": ["for", "while", "do-while", "loop"],
+      "answer": 1
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://oracle-devrel.github.io/devo-image-repository/seo-thumbnails/JavaScript---Thumbnail-1200-x-630.jpg",
+      "question": "Quel opérateur est utilisé pour concaténer des chaînes de caractères en JavaScript ?",
+      "options": ["+", "&", ".", "~"],
+      "answer": 0
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://oracle-devrel.github.io/devo-image-repository/seo-thumbnails/JavaScript---Thumbnail-1200-x-630.jpg",
+      "question": "Quelle méthode est utilisée pour convertir une chaîne de caractères en entier en JavaScript ?",
+      "options": ["parseInt()", "parseInteger()", "toInteger()", "convertInt()"],
+      "answer": 0
+    },
+    {
+      "id": 9,
+      "imageUrl": "https://oracle-devrel.github.io/devo-image-repository/seo-thumbnails/JavaScript---Thumbnail-1200-x-630.jpg",
+      "question": "Comment ajoute-t-on un commentaire multiligne en JavaScript ?",
+      "options": ["/* */", "//", "/*", "*/"],
+      "answer": 0
+    },
+    {
+      "id": 10,
+      "imageUrl": "https://oracle-devrel.github.io/devo-image-repository/seo-thumbnails/JavaScript---Thumbnail-1200-x-630.jpg",
+      "question": "Quelle méthode est utilisée pour obtenir la longueur d'une chaîne de caractères en JavaScript ?",
+      "options": ["length()", "getSize()", "count()", "size()"],
+      "answer": 0
+    },
+    {
+      "id": 11,
+      "imageUrl": "https://oracle-devrel.github.io/devo-image-repository/seo-thumbnails/JavaScript---Thumbnail-1200-x-630.jpg",
+      "question": "Quel événement est déclenché lorsqu'un élément HTML est cliqué en JavaScript ?",
+      "options": ["onclick", "onchange", "onmouseover", "onmouseclick"],
+      "answer": 0
+    },
+    {
+      "id": 12,
+      "imageUrl": "https://oracle-devrel.github.io/devo-image-repository/seo-thumbnails/JavaScript---Thumbnail-1200-x-630.jpg",
+      "question": "Quelle fonction est utilisée pour arrondir un nombre décimal au nombre entier le plus proche en JavaScript ?",
+      "options": ["round()", "ceil()", "floor()", "abs()"],
+      "answer": 0
+    },
+    {
+      "id": 13,
+      "imageUrl": "https://oracle-devrel.github.io/devo-image-repository/seo-thumbnails/JavaScript---Thumbnail-1200-x-630.jpg",
+      "question": "Quel est le mot-clé utilisé pour définir une fonction en JavaScript ?",
+      "options": ["func", "function", "def", "method"],
+      "answer": 1
+    },
+    {
+      "id": 14,
+      "imageUrl": "https://oracle-devrel.github.io/devo-image-repository/seo-thumbnails/JavaScript---Thumbnail-1200-x-630.jpg",
+      "question": "Comment appelle-t-on une fonction nommée \"myFunction\" en JavaScript ?",
+      "options": ["call myFunction()", "myFunction()", "run myFunction()", "execute myFunction()"],
+      "answer": 1
+    },
+    {
+      "id": 15,
+      "imageUrl": "https://oracle-devrel.github.io/devo-image-repository/seo-thumbnails/JavaScript---Thumbnail-1200-x-630.jpg",
+      "question": "Quel opérateur est utilisé pour vérifier une égalité stricte en valeur et en type en JavaScript ?",
+      "options": ["===", "==", "=", "!="],
+      "answer": 0
+    },
+    {
+      "id": 16,
+      "imageUrl": "https://oracle-devrel.github.io/devo-image-repository/seo-thumbnails/JavaScript---Thumbnail-1200-x-630.jpg",
+      "question": "Quelle méthode est utilisée pour supprimer le dernier élément d'un tableau en JavaScript ?",
+      "options": ["pop()", "remove()", "delete()", "splice()"],
+      "answer": 0
+    },
+    {
+      "id": 17,
+      "imageUrl": "https://oracle-devrel.github.io/devo-image-repository/seo-thumbnails/JavaScript---Thumbnail-1200-x-630.jpg",
+      "question": "Comment inclut-on un fichier JavaScript externe dans une page HTML ?",
+      "options": ["<js src=\"file.js\">", "<script src=\"file.js\"></script>", "<script file=\"file.js\">", "<javascript src=\"file.js\">"],
+      "answer": 1
+    },
+    {
+      "id": 18,
+      "imageUrl": "https://oracle-devrel.github.io/devo-image-repository/seo-thumbnails/JavaScript---Thumbnail-1200-x-630.jpg",
+      "question": "Quelle méthode est utilisée pour transformer du texte en majuscules en JavaScript ?",
+      "options": ["toUpperCase()", "toUpper()", "upperCase()", "convertToUpper()"],
+      "answer": 0
+    },
+    {
+      "id": 19,
+      "imageUrl": "https://oracle-devrel.github.io/devo-image-repository/seo-thumbnails/JavaScript---Thumbnail-1200-x-630.jpg",
+      "question": "Quel est l'opérateur logique qui représente \"ET\" en JavaScript ?",
+      "options": ["&", "&&", "|", "||"],
+      "answer": 1
+    },
+    {
+      "id": 20,
+      "imageUrl": "https://oracle-devrel.github.io/devo-image-repository/seo-thumbnails/JavaScript---Thumbnail-1200-x-630.jpg",
+      "question": "Quelle méthode est utilisée pour afficher une boîte de dialogue avec un message en JavaScript ?",
+      "options": ["alert()", "prompt()", "confirm()", "message()"],
+      "answer": 0
+    }
+  ]
+  
