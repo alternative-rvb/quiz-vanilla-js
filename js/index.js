@@ -6,8 +6,19 @@ console.log("quiz.js loaded");
  */
 
 // Réglages du quiz
-let spoilerMode = false; // Afficher l'image en flou
-const timeLimit = 10; // Durée du quiz en secondes
+/**
+ * @type {Boolean} spoilerMode - Afficher l'image en flou
+ */
+let spoilerMode = false;
+/**
+ * @type {Number} timeLimit - Durée du quiz en secondes
+ * @default 10
+ */
+const timeLimit = 10;
+/**
+ * @type {String} questionsUrl - URL du fichier JSON
+ * @default "js/questions/javascript-1.json"
+ */
 const questionsUrl = "js/questions/javascript-1.json"; // URL du fichier JSON
 
 const quizContainer = document.querySelector("#quiz");
