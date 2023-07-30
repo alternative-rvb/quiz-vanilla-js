@@ -3,6 +3,10 @@ console.log("quiz.js loaded");
 /**
  * @file index.js
  * @desc Ce script permet de créer un quiz à partir d'un fichier JSON
+ * @version 1.0.0
+ * @see {@link https://github.com/alternative-rvb/quiz | Repo GitHub}
+ * @see {@link https://vercel.com/alternative-rvb/quiz | Démo Vercel}
+ * @see {@link https://app.mailgun.com/mg/dashboard | Mailgun}
  */
 
 // ANCHOR Réglages du quiz
