@@ -216,6 +216,11 @@ function endOfQuiz(questions) {
     quizContainer.innerHTML += `<img src="images/loose.gif" alt="Spongebob" class="quiz__image">`;
   } else {
     quizContainer.innerHTML += `<img src="images/win.gif" alt="Spongebob" class="quiz__image">`;
+    confetti({
+      particleCount: 100,
+      spread: 70,
+      origin: { y: 0.6 },
+    });
   }
   quizContainer.innerHTML += `<p>Vous avez obtenu ${points} points sur ${questions.length}</p>`;
 
@@ -225,11 +230,6 @@ function endOfQuiz(questions) {
   restartButton.innerText = "Rejouez";
   restartButton.addEventListener("click", restartQuiz);
   quizContainer.appendChild(restartButton);
-  confetti({
-    particleCount: 100,
-    spread: 70,
-    origin: { y: 0.6 },
-  });
 }
 
 /**
