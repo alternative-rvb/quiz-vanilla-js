@@ -49,10 +49,54 @@ img {
   object-fit: cover;
 }
 
+.d-flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+.ai-c {
+  align-items: center;
+}
+
+.ac-c {
+  align-content: center;
+}
+
+.g-1 {
+  gap: 0.5rem;
+}
+
 #quiz {
   margin-bottom: 1rem;
   text-align: center;
   position: relative;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: var(--theme1);
 }
 
 .quiz__question {

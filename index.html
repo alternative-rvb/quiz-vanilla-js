@@ -23,9 +23,35 @@
         <div>
           <img src="images/spongebob.jpg" alt="Sponebob" />
         </div>
-        <button id="btn-start" class="btn btn-start" type="button">
-          Démarer
-        </button>
+        <form>
+          <div class="d-flex wrap g-1 jc-c">
+            <!-- Prénom -->
+            <div class="form__input d-flex column g-1">
+              <label for="prenom">Prénom</label>
+              <input
+                type="text"
+                id="prenom"
+                name="prenom"
+                placeholder="Votre prénom"
+                required
+              />
+            </div>
+            <!-- Nom -->
+            <div class="form__input d-flex column g-1">
+              <label for="nom">Nom</label>
+              <input
+                type="text"
+                id="nom"
+                name="nom"
+                placeholder="Votre nom"
+                required
+              />
+            </div>
+          </div>
+          <button id="btn-start" class="btn btn-start" type="button">
+            Démarer
+          </button>
+        </form>
       </div>
     </main>
     <!-- <script src="./node_modules/tsparticles-confetti/tsparticles.confetti.bundle.min.js"></script> -->
