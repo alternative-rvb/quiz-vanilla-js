@@ -6,6 +6,7 @@ main {
     margin-top: var(--header-height);
     min-height: calc(100vh - var(--header-height));
 }
+
 .arvb-header {
     background-color: rgba(0, 0, 0, 0.95);
     position: fixed;
@@ -29,6 +30,12 @@ main {
 .arvb-nav__link {
     color: white;
     padding: 10px;
+    text-decoration: none;
+}
+
+.arvb-nav__link:hover {
+    color: white;
+    opacity: 0.8;
 }
 
 .arvb-nav__logo img {
@@ -54,12 +61,6 @@ main {
     cursor: pointer;
 }
 
-.arvb-footer {
-    background-color: rgba(0, 0, 0, 0.95);
-    text-align: center;
-    padding: 20px;
-}
-
 .arvb-nav__sidebar {
     display: none;
 }
@@ -76,10 +77,27 @@ main {
     box-shadow: -5px 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
+.arvb-footer {
+    background-color: rgba(0, 0, 0, 0.95);
+    text-align: center;
+    padding: 20px;
+}
+
+.arvb-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.arvb-footer a:hover {
+    color: white;
+    opacity: 0.8;
+}
+
 @media (min-width: 1024px) {
     .arvb-nav__menu {
         display: none;
     }
+
     .arvb-nav__sidebar {
         display: initial;
     }
