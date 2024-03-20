@@ -70,11 +70,11 @@ async function getQuestions() {
  */
 async function quiz(index) {
   const questions = await getQuestions();
-  console.log("questions:", questions);
+
   clearInterval(idTimeInterval);
   clearTimeout(idDelayWhenStoped);
   clearTimeout(idDelayTransition);
-  console.log(idTimeInterval, idDelayWhenStoped, idDelayTransition);
+
   if (questions[index]) {
     quizContainer.innerHTML = "";
 
@@ -83,7 +83,7 @@ async function quiz(index) {
     startTimer();
   } else {
     endOfQuiz(questions);
-    console.log("End of quiz");
+
   }
 }
 
@@ -94,9 +94,9 @@ async function quiz(index) {
  */
 
 function startTimer() {
-  console.log("startTimer");
+
   idTimeInterval = setInterval(() => {
-    console.log(counter + " sec");
+
     timer.innerText =
       counter == 1 ? counter + " seconde" : counter + " secondes";
     counter++;
@@ -120,9 +120,9 @@ function startTimer() {
  * @returns {void}
  */
 function stopTimer(e, questionObj) {
-  console.log("e:", e);
+
   clearInterval(idTimeInterval);
-  console.log("stopTimer");
+
 
   if (spoilerMode) image.classList.remove("blur");
   e.currentTarget.classList.add("selected");
@@ -157,7 +157,7 @@ function stopTimer(e, questionObj) {
  * @returns {void}
  */
 function getNextQuestion(e) {
-  console.log("e:", e);
+
   counter = 1;
   next++;
   quiz(next);
